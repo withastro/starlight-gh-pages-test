@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://withastro.github.io',
+	site: 'https://astro.js.org',
 	base: 'starlight-gh-pages-test',
 	integrations: [
 		starlight({
