@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://withastro.github.io',
+	base: 'starlight-gh-pages-test',
 	integrations: [
 		starlight({
 			title: 'My Docs',
